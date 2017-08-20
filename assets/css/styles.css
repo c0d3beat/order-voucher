@@ -38,7 +38,8 @@
 }
 
 /* common CSS */
-.ui.segment {
+.ui.segment,
+.ui.segments {
   border-radius: 0px;
 }
 #main .ui.segment:first-child {
