@@ -17,3 +17,7 @@ body {
 .ui.container {
   margin-top: -70px;
 }
+.ui.table tr:nth-child(2) td,
+.ui.table tr:nth-child(3) td {
+  border-top: 0px !important;
+}

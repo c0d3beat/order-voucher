@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>GudangVoucher</title>
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Common CSS - START -->
+    <!-- Semantic UI -->
+    <link rel="stylesheet" href="plugins/semantic/semantic.min.css" type="text/css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="plugins/animate/animate.min.css" type="text/css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="plugins/animation/animations.css" type="text/css">
+    <!-- App CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/voucher.css" type="text/css">
+    <!-- Common CSS - END -->
+
+    <!-- Common JS - START -->
+    <!-- Jquery -->
+    <script type="text/javascript" src="plugins/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Semantic UI -->
+    <script type="text/javascript" src="plugins/semantic/semantic.min.js"></script>
+    <!-- App JS -->
+    <script type="text/javascript" src="assets/js/voucher.js"></script>
+    <!-- Common JS - END -->
+  </head>
+  <body>
+    <div class="blurring page">
+      <div class="ui inverted dimmer">
+        <div class="content">
+          <div class="center">
+            <div class="ui container">
+              <h2 class="ui icon header animated fadeIn">
+                <i class="qrcode icon"></i>
+                <div class="content">
+                  <div class="sub header">
+                    Your voucher is generated successfully and is masked for security reason.
+                    To ensure that no body cannot see your voucher, please only unmask this voucher right before payment.
+                  </div>
+                </div>
+              </h2>
+              <button class="ui black basic button">Show me!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui container">
+        <div class="ui center aligned raised segment">
+          <img src="assets/img/qrcode.png" alt="" class="ui centered small image">
+          <br><br>
+          <img src="assets/img/barcode.png" alt="" class="ui centered medium image">
+          <br>
+          <div class="ui message">
+            <div class="header">Voucher code: 511-102-978</div>
+          </div>
+          <p>Nominal:</p>
+          <p><strong>Rp. 12.000,-</strong></p>
+          <p>Expiration date: <strong>August 25, 2017 | 12:52:00</strong></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
