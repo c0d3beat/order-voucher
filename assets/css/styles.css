@@ -25,9 +25,6 @@
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-.pt-page-hidden {
-  overflow: hidden;
-}
 .pt-page-ontop {
   z-index: 999;
 }
@@ -114,4 +111,14 @@
 }
 #mobile {
   display: none;
+}
+@media screen and (max-device-height: 568px) {
+  #form .ui.basic.segment:nth-child(2) {
+    margin-top: -50px;
+    padding-bottom: 0;
+    margin-bottom: -1em;
+  }
+  #form .ui.basic.segment:first-child {
+    z-index: 2;
+  }
 }
