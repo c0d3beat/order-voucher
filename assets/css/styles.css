@@ -121,4 +121,7 @@
   #form .ui.basic.segment:first-child {
     z-index: 2;
   }
+  #form .ui.hidden.small.header {
+    display: none;
+  }
 }
